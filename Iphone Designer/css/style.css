@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.wrapper {
+  background-color: hotpink;
+  width: 60%;
+  height: 80%;
+  display: flex;
+}
+
+.phone-wrapper {
+  flex-basis: 60%;
+  background-color: rgb(127, 234, 161);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone {
+  position: relative;
+  border-radius: 10px;
+  width: 53%;
+  height: 90%;
+}
+
+.phone-model {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  white-space: nowrap;
+}
+
+.accessories-wrapper {
+  flex-basis: 40%;
+  background-color: hotpink;
+  padding: 5px;
+  display: grid;
+  grid-template-rows: 2fr 5fr;
+}
+
+.items {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 35%, rgb(0, 212, 255) 100%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.big-camera {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  border-radius: 50%;
+  border: 6px solid #212529;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.big-camera .lens {
+  width: 65%;
+  height: 65%;
+  background-color: darkgrey;
+  border-radius: 50%;
+}
+
+.medium-camera {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  border-radius: 50%;
+  border: 6px solid #212529;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.medium-camera .lens {
+  width: 65%;
+  height: 65%;
+  background-color: darkgrey;
+  border-radius: 50%;
+}
+
+.small-camera {
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  border-radius: 50%;
+  border: 6px solid #212529;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.small-camera .lens {
+  width: 60%;
+  height: 60%;
+  background-color: darkgrey;
+  border-radius: 50%;
+}
+
+.flash {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #d6ae0d;
+  border: 3px solid #ffc107;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.apple {
+  width: 35px;
+  height: 35px;
+}
+
+.samsung {
+  height: 15px !important;
+}
+
+.xiaomi {
+  height: 20px !important;
+}
+
+img {
+  cursor: pointer;
+}
+
+form {
+  border-top: 1px solid black;
+  margin-top: 5px;
+}
+
+.black {
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+}
+
+.green {
+  background-color: #63d471;
+  background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+}
+
+.red {
+  background-color: #3f0d12;
+  background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+}
+
+.pink {
+  background-color: #861657;
+  background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+}
+
+.gold {
+  background-color: #fbb034;
+  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+}/*# sourceMappingURL=style.css.map */
